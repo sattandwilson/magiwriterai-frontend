@@ -4,7 +4,7 @@ import "./index.css";
 import App from "./App.jsx";
 import { Toaster } from "react-hot-toast";
 import ScrollToTop from "./lib/ScrollToTop";
-import { UserProvider } from "./context/userContext";
+import { UserProvider } from "./context/UserContext";
 
 createRoot(document.getElementById("root")).render(
   <BrowserRouter>
