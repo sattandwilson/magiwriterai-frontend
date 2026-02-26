@@ -41,7 +41,7 @@ import { AudioLines } from "lucide-react";
 import { Bird } from "lucide-react";
 import { useUser } from "@/context/UserContext";
 import { ShinyButton } from "../ui/shiny-button";
-import RegularNavCard from "../cards/navcards/regular";
+import RegularNavCard from "../cards/navcards/Regular";
 import ImageGenCard from "../cards/navcards/ImageGen";
 import { useNavigate } from "react-router-dom";
 
