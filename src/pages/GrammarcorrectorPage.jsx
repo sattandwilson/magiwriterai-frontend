@@ -82,7 +82,7 @@ const GrammarcorrectorPage = () => {
     try {
       setImprovedGrammarLoading(true);
       const res = await fetch(
-        "http://localhost:5001/generate/grammar/correct",
+        "https://www.magiwriter.com/api/generate/grammar/correct",
         {
           method: "POST",
           headers: {

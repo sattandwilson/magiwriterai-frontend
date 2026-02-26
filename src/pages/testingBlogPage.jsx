@@ -139,7 +139,7 @@ const BlogTestingPage = () => {
     }
     try {
       setLoadingResponse(true);
-      const res = await fetch("http://localhost:5001/generate/blog", {
+      const res = await fetch("https://www.magiwriter.com/api/generate/blog", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

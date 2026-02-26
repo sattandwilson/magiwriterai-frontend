@@ -75,7 +75,7 @@ const DetectorPage = () => {
     }
     try {
       setDetectedTextLoading(true);
-      const res = await fetch("http://localhost:5001/generate/detect", {
+      const res = await fetch("https://www.magiwriter.com/api/generate/detect", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

@@ -42,7 +42,7 @@ const RestAllWritingOutputWindow = ({
   const handleDownloadPdf = async () => {
     try {
       setIsDownloadingPdf(true);
-      const response = await fetch("http://localhost:5001/download/pdf", {
+      const response = await fetch("https://www.magiwriter.com/api/download/pdf", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -71,7 +71,7 @@ const RestAllWritingOutputWindow = ({
   const handleDownloadDocx = async () => {
     try {
       setIsDownloadingDocx(true);
-      const response = await fetch("http://localhost:5001/download/docx", {
+      const response = await fetch("https://www.magiwriter.com/api/download/docx", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -98,7 +98,7 @@ const RestAllWritingOutputWindow = ({
 
   const handleDownloadHtml = async () => {
     try {
-      const response = await fetch("http://localhost:5001/download/html", {
+      const response = await fetch("https://www.magiwriter.com/api/download/html", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

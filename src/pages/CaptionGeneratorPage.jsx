@@ -115,7 +115,7 @@ const CaptionGeneratorPage = () => {
     formData.append("image", image);
     setCaptionLoading(true);
     try {
-      const res = await fetch("http://localhost:5001/generate/caption", {
+      const res = await fetch("https://www.magiwriter.com/api/generate/caption", {
         method: "POST",
         credentials: "include",
         body: formData,

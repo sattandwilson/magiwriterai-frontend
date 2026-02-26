@@ -90,7 +90,7 @@ const SeometadescriptionGeneratorPage = () => {
     try {
       setSeometadescriptionLoading(true);
       const res = await fetch(
-        "http://localhost:5001/generate/seometadescription",
+        "https://www.magiwriter.com/api/generate/seometadescription",
         {
           method: "POST",
           headers: {

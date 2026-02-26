@@ -75,7 +75,7 @@ const FaqGeneratorPage = () => {
     }
     try {
       setFaqLoading(true);
-      const res = await fetch("http://localhost:5001/generate/faq", {
+      const res = await fetch("https://www.magiwriter.com/api/generate/faq", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

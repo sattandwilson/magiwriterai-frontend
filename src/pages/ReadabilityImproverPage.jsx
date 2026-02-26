@@ -87,7 +87,7 @@ const ReadabilityImproverPage = () => {
     try {
       setReadableTextLoading(true);
       const res = await fetch(
-        "http://localhost:5001/generate/readability/improve",
+        "https://www.magiwriter.com/api/generate/readability/improve",
         {
           method: "POST",
           headers: {

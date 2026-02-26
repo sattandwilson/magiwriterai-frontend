@@ -77,7 +77,7 @@ const TitleGeneratorPage = () => {
     }
     try {
       setTitleLoading(true);
-      const res = await fetch("http://localhost:5001/generate/title", {
+      const res = await fetch("https://www.magiwriter.com/api/generate/title", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

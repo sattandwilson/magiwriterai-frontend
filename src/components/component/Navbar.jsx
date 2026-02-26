@@ -383,7 +383,7 @@ const Navbar = () => {
   }, []);
 
   const handleSignin = () => {
-    window.location.href = "http://localhost:5001/auth/google";
+    window.location.href = "https://www.magiwriter.com/api/auth/google";
   };
 
   return (

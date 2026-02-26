@@ -76,7 +76,7 @@ const SummarizerPage = () => {
     }
     try {
       setSummarizeTextLoading(true);
-      const res = await fetch("http://localhost:5001/generate/summary", {
+      const res = await fetch("https://www.magiwriter.com/api/generate/summary", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

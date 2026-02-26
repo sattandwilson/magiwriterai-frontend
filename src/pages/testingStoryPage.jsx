@@ -121,7 +121,7 @@ const StoryTestingPage = () => {
     }
     try {
       setStoryLoading(true);
-      const res = await fetch("http://localhost:5001/generate/story", {
+      const res = await fetch("https://www.magiwriter.com/api/generate/story", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

@@ -100,7 +100,7 @@ const CtaGeneratorPage = () => {
     }
     try {
       setCtaLoading(true);
-      const res = await fetch("http://localhost:5001/generate/cta", {
+      const res = await fetch("https://www.magiwriter.com/api/generate/cta", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
