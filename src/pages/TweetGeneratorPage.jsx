@@ -76,7 +76,7 @@ const TweetGeneratorPage = () => {
     }
     try {
       setTweetLoading(true);
-      const res = await fetch("https://www.magiwriter.com/api/generate/tweet", {
+      const res = await fetch("/api/generate/tweet", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

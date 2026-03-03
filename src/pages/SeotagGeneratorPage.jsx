@@ -87,7 +87,7 @@ const SeotagGeneratorPage = () => {
     }
     try {
       setSeotagLoading(true);
-      const res = await fetch("https://www.magiwriter.com/api/generate/seotag", {
+      const res = await fetch("/api/generate/seotag", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

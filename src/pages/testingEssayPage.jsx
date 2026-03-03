@@ -125,7 +125,7 @@ const EssayTestingPage = () => {
     }
     // Function to handle essay generation
     try {
-      const res = await fetch("https://www.magiwriter.com/api/generate/essay", {
+      const res = await fetch("/api/generate/essay", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

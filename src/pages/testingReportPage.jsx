@@ -109,7 +109,7 @@ const ReportTestingPage = () => {
     }
     try {
       setReportLoading(true);
-      const res = await fetch("https://www.magiwriter.com/api/generate/report", {
+      const res = await fetch("/api/generate/report", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

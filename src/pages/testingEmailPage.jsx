@@ -157,7 +157,7 @@ const EmailTestingPage = () => {
     }
     try {
       setNewEmailResponseLoading(true);
-      const res = await fetch("https://www.magiwriter.com/api/generate/newEmail", {
+      const res = await fetch("/api/generate/newEmail", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -193,7 +193,7 @@ const EmailTestingPage = () => {
     }
     try {
       setResEmailResponseLoading(true);
-      const res = await fetch("https://www.magiwriter.com/api/generate/resEmail", {
+      const res = await fetch("/api/generate/resEmail", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

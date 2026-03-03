@@ -84,7 +84,7 @@ const ArticleOutputWindow = ({ articleMarkdown, isLoading, isDark }) => {
     setIsImageLoading(true);
     try {
       const response = await fetch(
-        "https://www.magiwriter.com/api/generate/articleImage",
+        "/api/generate/articleImage",
         {
           method: "POST",
           headers: {
@@ -108,7 +108,7 @@ const ArticleOutputWindow = ({ articleMarkdown, isLoading, isDark }) => {
   const handleDownloadPdf = async () => {
     try {
       setIsDownloadingPdf(true);
-      const response = await fetch("https://www.magiwriter.com/api/download/pdf", {
+      const response = await fetch("/api/download/pdf", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -137,7 +137,7 @@ const ArticleOutputWindow = ({ articleMarkdown, isLoading, isDark }) => {
   const handleDownloadDocx = async () => {
     try {
       setIsDownloadingDocx(true);
-      const response = await fetch("https://www.magiwriter.com/api/download/docx", {
+      const response = await fetch("/api/download/docx", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -165,7 +165,7 @@ const ArticleOutputWindow = ({ articleMarkdown, isLoading, isDark }) => {
   const handleDownloadHtml = async () => {
     try {
       setIsDownloadingHtml(true);
-      const response = await fetch("https://www.magiwriter.com/api/download/html", {
+      const response = await fetch("/api/download/html", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

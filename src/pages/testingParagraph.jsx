@@ -121,7 +121,7 @@ const ParagraphTestingPage = () => {
     }
     try {
       setParagraphLoading(true);
-      const res = await fetch("https://www.magiwriter.com/api/generate/paragraph", {
+      const res = await fetch("/api/generate/paragraph", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

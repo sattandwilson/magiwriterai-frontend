@@ -24,7 +24,7 @@ const features = [
     name: "AI Caption Generator",
     description:
       "Generate Instagram captions with trending hashtags for maximum reach.",
-    href: "http://localhost:5001/auth/google",
+    href: "/api/auth/google",
     cta: "Take a quick trial",
     background: <img className="absolute -top-20 -right-20 opacity-60" />,
     gridspan: "col-span-2 row-span-1",
@@ -37,7 +37,7 @@ const features = [
     name: "AI CTA Generator",
     description:
       "Design high-converting call-to-action buttons that drive sales and signups.",
-    href: "http://localhost:5001/auth/google",
+    href: "/api/auth/google",
     cta: "Take a quick trial",
     background: <img className="absolute -top-20 -right-20 opacity-60" />,
     gridspan: "col-span-1 row-span-2",
@@ -50,7 +50,7 @@ const features = [
     name: "AI FAQ Generator",
     description:
       "Create schema-ready FAQ sections that earn rich snippets in Google search.",
-    href: "http://localhost:5001/auth/google",
+    href: "/api/auth/google",
     cta: "Take a quick trial",
     background: <img className="absolute -top-20 -right-20 opacity-60" />,
     gridspan: "col-span-1 row-span-1",
@@ -63,7 +63,7 @@ const features = [
     name: "AI Grammar Corrector",
     description:
       "Fix grammar, spelling, and punctuation errors instantly with 99% accuracy.",
-    href: "http://localhost:5001/auth/google",
+    href: "/api/auth/google",
     cta: "Take a quick trial",
     background: <img className="absolute -top-20 -right-20 opacity-60" />,
     gridspan: "col-span-2 row-span-1",
@@ -76,7 +76,7 @@ const features = [
     name: "AI Humanizer",
     description:
       "Transform AI content into undetectable human-written text that passes all checks.",
-    href: "http://localhost:5001/auth/google",
+    href: "/api/auth/google",
     cta: "Take a quick trial",
     background: <img className="absolute -top-20 -right-20 opacity-60" />,
     gridspan: "col-span-1 row-span-2",
@@ -89,7 +89,7 @@ const features = [
     name: "AI Image Generator",
     description:
       "Create custom image with the help of Magiwriter AI Image Generator.",
-    href: "http://localhost:5001/auth/google",
+    href: "/api/auth/google",
     cta: "Take a quick trial",
     background: <img className="absolute -top-20 -right-20 opacity-60" />,
     gridspan: "col-span-1 row-span-2",
@@ -102,7 +102,7 @@ const features = [
     name: "AI Outline Generator",
     description:
       "Build SEO-friendly content outlines with H1-H3 structure and keyword placement.",
-    href: "http://localhost:5001/auth/google",
+    href: "/api/auth/google",
     cta: "Take a quick trial",
     background: <img className="absolute -top-20 -right-20 opacity-60" />,
     gridspan: "col-span-2 row-span-1",
@@ -114,7 +114,7 @@ const features = [
     name: "AI Paraphraser",
     description:
       "Rewrite content in fresh words while preserving original meaning and SEO value.",
-    href: "http://localhost:5001/auth/google",
+    href: "/api/auth/google",
     cta: "Take a quick trial",
     background: <img className="absolute -top-20 -right-20 opacity-60" />,
     gridspan: "col-span-1 row-span-1",
@@ -127,7 +127,7 @@ const features = [
     name: "AI Readability Improver",
     description:
       "Boost Flesch scores and simplify text for better audience engagement.",
-    href: "http://localhost:5001/auth/google",
+    href: "/api/auth/google",
     cta: "Take a quick trial",
     background: <img className="absolute -top-20 -right-20 opacity-60" />,
     gridspan: "col-span-2 row-span-1",
@@ -140,7 +140,7 @@ const features = [
     name: "AI Reply Generator",
     description:
       "Generate relevant social media comments and replies that build community.",
-    href: "http://localhost:5001/auth/google",
+    href: "/api/auth/google",
     cta: "Take a quick trial",
     background: <img className="absolute -top-20 -right-20 opacity-60" />,
     gridspan: "col-span-1 row-span-2",
@@ -153,7 +153,7 @@ const features = [
     name: "AI SEO Meta Description Generator",
     description:
       "Write compelling 160-character meta descriptions with optimal CTR.",
-    href: "http://localhost:5001/auth/google",
+    href: "/api/auth/google",
     cta: "Take a quick trial",
     background: <img className="absolute -top-20 -right-20 opacity-60" />,
     gridspan: "col-span-2 row-span-1",
@@ -166,7 +166,7 @@ const features = [
     name: "AI SEO Tag Generator",
     description:
       "Create keyword-rich meta tags that improve search engine rankings.",
-    href: "http://localhost:5001/auth/google",
+    href: "/api/auth/google",
     cta: "Take a quick trial",
     background: <img className="absolute -top-20 -right-20 opacity-60" />,
     gridspan: "col-span-1 row-span-1",
@@ -179,7 +179,7 @@ const features = [
     name: "AI Slogan Generator",
     description:
       "Build memorable brand slogans that stick in customers' minds.",
-    href: "http://localhost:5001/auth/google",
+    href: "/api/auth/google",
     cta: "Take a quick trial",
     background: <img className="absolute -top-20 -right-20 opacity-60" />,
     gridspan: "col-span-2 row-span-1",
@@ -192,7 +192,7 @@ const features = [
     name: "AI Summariser",
     description:
       "Extract key points from long articles into concise, scannable summaries.",
-    href: "http://localhost:5001/auth/google",
+    href: "/api/auth/google",
     cta: "Take a quick trial",
     background: <img className="absolute -top-20 -right-20 opacity-60" />,
     gridspan: "col-span-1 row-span-2",
@@ -205,7 +205,7 @@ const features = [
     name: "AI Title Generator",
     description:
       "Craft click-worthy headlines that boost CTR and time-on-page metrics.",
-    href: "http://localhost:5001/auth/google",
+    href: "/api/auth/google",
     cta: "Take a quick trial",
     background: <img className="absolute -top-20 -right-20 opacity-60" />,
     gridspan: "col-span-2 row-span-1",
@@ -218,7 +218,7 @@ const features = [
     name: "AI Tone Shifter",
     description:
       "Adjust content tone for different audiences while maintaining SEO signals.",
-    href: "http://localhost:5001/auth/google",
+    href: "/api/auth/google",
     cta: "Take a quick trial",
     background: <img className="absolute -top-20 -right-20 opacity-60" />,
     gridspan: "col-span-1 row-span-1",
@@ -231,7 +231,7 @@ const features = [
     name: "AI Tweet Generator",
     description:
       "Create viral Twitter threads and tweets that drive engagement and followers.",
-    href: "http://localhost:5001/auth/google",
+    href: "/api/auth/google",
     cta: "Take a quick trial",
     background: <img className="absolute -top-20 -right-20 opacity-60" />,
     gridspan: "col-span-2 row-span-1",

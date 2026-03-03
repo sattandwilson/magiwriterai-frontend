@@ -82,7 +82,7 @@ const ParaphraserPage = () => {
     }
     try {
       setParaphraserLoading(true);
-      const res = await fetch("https://www.magiwriter.com/api/generate/paraphraser", {
+      const res = await fetch("/api/generate/paraphraser", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

@@ -19,7 +19,7 @@ export const UserProvider = ({ children }) => {
   const fetchUser = async () => {
     try {
       setIsLoading(true);
-      const res = await fetch("https://www.magiwriter.com/api/auth/user", {
+      const res = await fetch("/api/auth/user", {
         method: "GET",
         credentials: "include",
       });

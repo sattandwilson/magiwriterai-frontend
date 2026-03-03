@@ -86,7 +86,7 @@ const HumanizerPage = () => {
     }
     try {
       setHumanizeTextLoading(true);
-      const res = await fetch("https://www.magiwriter.com/api/generate/humanize", {
+      const res = await fetch("/api/generate/humanize", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

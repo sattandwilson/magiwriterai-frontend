@@ -77,7 +77,7 @@ const ToneShifterPage = () => {
     }
     try {
       setShiftedToneLoading(true);
-      const res = await fetch("https://www.magiwriter.com/api/generate/toneshift", {
+      const res = await fetch("/api/generate/toneshift", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

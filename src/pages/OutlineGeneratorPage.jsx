@@ -86,7 +86,7 @@ const OutlineGeneratorPage = () => {
     }
     try {
       setOutlineLoading(true);
-      const res = await fetch("https://www.magiwriter.com/api/generate/outline", {
+      const res = await fetch("/api/generate/outline", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

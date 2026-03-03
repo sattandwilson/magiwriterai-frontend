@@ -156,7 +156,7 @@ const LetterTestingPage = () => {
     }
     try {
       setPersonalLetterLoading(true);
-      const res = await fetch("https://www.magiwriter.com/api/generate/personalletter", {
+      const res = await fetch("/api/generate/personalletter", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -181,7 +181,7 @@ const LetterTestingPage = () => {
     try {
       setProfessionalLetterLoading(true);
       const res = await fetch(
-        "https://www.magiwriter.com/api/generate/professionalletter",
+        "/api/generate/professionalletter",
         {
           method: "POST",
           headers: {

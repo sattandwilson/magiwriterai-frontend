@@ -93,7 +93,7 @@ const ImageGeneratorPage = () => {
     }
     try {
       setImageLoading(true);
-      const res = await fetch("https://www.magiwriter.com/api/generate/image", {
+      const res = await fetch("/api/generate/image", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

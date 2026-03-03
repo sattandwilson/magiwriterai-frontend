@@ -165,7 +165,7 @@ const NoticeTestingPage = () => {
     }
     try {
       setNoticeLoading(true);
-      const res = await fetch("https://www.magiwriter.com/api/generate/notice", {
+      const res = await fetch("/api/generate/notice", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

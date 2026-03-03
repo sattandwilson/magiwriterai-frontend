@@ -383,7 +383,7 @@ const Navbar = () => {
   }, []);
 
   const handleSignin = () => {
-    window.location.href = "https://www.magiwriter.com/api/auth/google";
+    window.location.href = "/api/auth/google";
   };
 
   return (

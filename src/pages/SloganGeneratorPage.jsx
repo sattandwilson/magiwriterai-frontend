@@ -77,7 +77,7 @@ const SloganGeneratorPage = () => {
     }
     try {
       setSloganLoading(true);
-      const res = await fetch("https://www.magiwriter.com/api/generate/slogan", {
+      const res = await fetch("/api/generate/slogan", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
