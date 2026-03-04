@@ -107,7 +107,7 @@ const CaptionGeneratorPage = () => {
   };
 
   const handleCaptionGenerate = async () => {
-    if(!image || !formData || !formData.get("image")) {
+    if(!image) {
       toast.error("Please upload an image to generate a caption!");
       return;
     }
@@ -126,7 +126,7 @@ const CaptionGeneratorPage = () => {
       setCaptionResponse(caption);
       setCaptionLoading(false);
     } catch (error) {
-      console.error("Error generating caption:", error);
+      console.error("Error generating caption:", error);  
     } finally {
       setCaptionLoading(false);
     }
