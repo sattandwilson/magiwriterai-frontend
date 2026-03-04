@@ -119,6 +119,7 @@ const EssayTestingPage = () => {
   const [essayLoading, setEssayLoading] = useState(false);
   const [essayResponse, setEssayResponse] = useState("");
   const handleEssayGeneration = async () => {
+    setEssayLoading(true);
     if(essayForm.title.trim() === "" || essayForm.thesisStatement.trim() === "" || essayForm.keyPoints.trim() === "" || essayForm.tone === "Essay Tone" || essayForm.standard === "Standard" || essayForm.language === "Language" || essayForm.audience === "Select Audience" || essayForm.complexity === "Complexity Level" || essayForm.humanTouch === "Include Human Touch" || essayForm.citation === "Citation Style" || essayForm.writingStyle === "Writing Style" || essayForm.includeExample === "Include Example" || essayForm.wordCount === "Word Count" || essayForm.sentenceWord === "Words In Sentence") {
       toast.error("Please fill in all the required fields!");
       return;
