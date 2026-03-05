@@ -469,7 +469,7 @@ const Dashboard = () => {
             <div className="w-[92%] flex justify-start items-center">
               {user ? (
                 <p className="text-3xl md:text-4xl lg:text-4xl xl:text-2xl font-nunito font-bold z-40 text-gray-400">
-                  Hi! Satwik, Welcome 👋 <br />{" "}
+                  Hi! {user.username}, Welcome 👋 <br />{" "}
                   <span className="text-white">
                     What will you create today?
                   </span>
